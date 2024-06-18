@@ -1,5 +1,5 @@
 import React from "react";
-import sec1_play_svg from "./assets/sec1/play.svg";
+import sec1_play_svg from "./src/assets/sec1/play.svg";
 import "./App.scss";
 function App() {
   return (
