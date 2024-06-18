@@ -1,5 +1,5 @@
 import React from "react";
-import sec1_play_svg from "../src/assets/sec1/play.svg";
+import sec1_sec1_img from "./assets/sec1/sec1-img.png";
 import "./App.scss";
 function App() {
   return (
@@ -47,13 +47,13 @@ function App() {
                 <div className="sec1-btns">
                   <button>Get started</button>
                   <a href="#">
-                    <img src={{ sec1_play_svg }} alt="Play" />
+                    <img src="./src/assets/sec1/play.svg" alt="Play" />
                     <span>Watch the video</span>
                   </a>
                 </div>
               </div>
               <div className="sec1-img">
-                <img src="./src/assets/sec1/sec1-img.png" alt="sec1 img" />
+                <img src={sec1_sec1_img} alt="sec1 img" />
               </div>
             </div>
           </div>
