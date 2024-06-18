@@ -47,7 +47,7 @@ function App() {
                 <div className="sec1-btns">
                   <button>Get started</button>
                   <a href="#">
-                    <img src={sec1_play_svg} alt="Play" />
+                    <img src={{ sec1_play_svg }} alt="Play" />
                     <span>Watch the video</span>
                   </a>
                 </div>
