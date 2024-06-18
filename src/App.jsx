@@ -1,4 +1,5 @@
 import React from "react";
+import sec1_play_svg from "./assets/sec1/play.svg";
 import "./App.scss";
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
                 <div className="sec1-btns">
                   <button>Get started</button>
                   <a href="#">
-                    <img src="./src/assets/sec1/play.svg" alt="Play" />
+                    <img src={sec1_play_svg} alt="Play" />
                     <span>Watch the video</span>
                   </a>
                 </div>
